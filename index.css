@@ -96,6 +96,10 @@ section h2 {
   margin-bottom: 32px;
 }
 
+#destinos p {
+    margin-bottom: 1em;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -112,6 +116,12 @@ section h2 {
 
 .card:hover {
   transform: translateY(-6px);
+}
+
+.imagem-principal img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
 .card img {
